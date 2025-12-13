@@ -1,4 +1,4 @@
-# Project 3: Maintenance Alert Automation System
+# Maintenance Alert Automation System
 
 **ServiceNow Portfolio Project** | *Integration & Automation*
 
@@ -252,9 +252,9 @@ While this implementation uses Business Rules triggered by manual alert entry, i
 
 ## Author
 
-Lauren Anderson  
+Laurenda Landry  
 ServiceNow Developer Portfolio  
-[LinkedIn](https://linkedin.com/in/your-profile) | [Portfolio](https://your-portfolio.com)
+[LinkedIn](https://linkedin.com/in/lauland) | [Portfolio](https://lauland.dev)
 
 ## License
 
