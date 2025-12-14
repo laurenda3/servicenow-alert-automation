@@ -1,7 +1,5 @@
 # Maintenance Alert Automation System
 
-**ServiceNow Portfolio Project** | *Integration & Automation*
-
 ## Overview
 
 An automated alert processing system built in ServiceNow that receives maintenance alerts and automatically creates, assigns, and routes work orders. This project demonstrates business rule automation, event-driven architecture, and intelligent incident management - eliminating manual ticket creation for critical building failures.
@@ -193,22 +191,13 @@ An automated alert processing system built in ServiceNow that receives maintenan
 6. Verify incidents are created automatically
 
 **Dependencies:**
-- Project 1 tables (Unit for reference)
+- Unit table (from Asset Management system)
 - Incident table (built-in ServiceNow)
 - Assignment groups configured
 
-## Portfolio Talking Points
-
-**Elevator Pitch:**
-> "I built an automated alert processing system that creates work orders in ServiceNow within 10 seconds of a maintenance alert being logged. When an HVAC system failure is detected, a Business Rule triggers automatically, creates an incident, assigns it to the HVAC technician, and updates the alert status - eliminating 30 minutes of manual data entry. This reduced response time from 45 minutes to 10 minutes and prevented $40K in equipment damage through early detection."
-
-**Technical Highlight:**
-> "The most interesting challenge was intelligent routing logic. Different alert types require different specialists - HVAC issues go to the HVAC tech, water leaks to the plumber, fire alarms trigger emergency response. I implemented this using a Business Rule with conditional logic that reads the 'Alert Type' field, uses a switch statement to determine the appropriate assignment group, and creates the incident with the correct assignment automatically. This ensures the right person gets the alert immediately, even at 2 AM, without any manual intervention."
-
-**Real-World Impact:**
-> "In month two of deployment, we logged a refrigerator compressor failure alert at 3 AM. The Business Rule created a work order and assigned the on-call maintenance tech within 10 seconds. The tech saw the alert on his phone and responded within 20 minutes - before the resident even woke up. Without this automation, the resident would have called the office at 8 AM, staff would have created a ticket manually, and the tech wouldn't have responded until noon. We saved 9+ hours of food spoilage and avoided a potential habitability complaint."
-
 ## Integration Concept
+
+
 
 While this implementation uses Business Rules triggered by manual alert entry, it demonstrates the **integration pattern** that would be used with external systems:
 
@@ -256,12 +245,6 @@ Laurenda Landry
 ServiceNow Developer Portfolio  
 [LinkedIn](https://linkedin.com/in/lauland) | [Portfolio](https://lauland.dev)
 
-## License
-
-Educational/Portfolio Project - Not for commercial use
-
 ---
 
-**Project Status:** ✅ Complete  
-**Build Time:** 3 hours  
-**Completion Date:** December 12, 2024
+*Built with ServiceNow Platform (Zurich Release)*
